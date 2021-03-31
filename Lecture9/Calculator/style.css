@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(to right, blue, green);
+}
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+#calculator {
+  margin: 10px 400px;
+  width: 450px;
+  height: 570px;
+  border-radius: 50px;
+  background-color: grey;
+  border: 10px solid grey;
+}
+#result {
+  width: 400px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  margin: 15px;
+}
+#animate {
+  height: 200px;
+  width: 200px;
+  margin: 200px 100px;
+  font-size: 100px;
+  border: 2px solid red;
+  background-color: whitesmoke;
+  float: left;
+}
+hr {
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 0px;
+  line-height: 200px;
+  border-color: whitesmoke;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 2px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 0px;
+  padding-top: 10px;
+  padding-left: 0px;
+  border: 0px;
+}
+h3 {
+  color: whitesmoke;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+}
+.animation {
+  text-align: center;
+  color: red;
+  animation: anim 1.5s ease-out 0s alternate;
+}
+@keyframes anim {
+  from {
+    font-size: 10px;
+  }
+  to {
+    font-size: 150px;
+  }
+}
